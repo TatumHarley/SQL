@@ -18,4 +18,4 @@ INSERT INTO Clothing_Store VALUES (14, "Backpacks", "Blue", 25.00,16);
 INSERT INTO Clothing_Store VALUES (15, "purses", "Brown", 29.00,6);
 SELECT * FROM Clothing_Store ORDER BY price;
 SELECT MAX(quantity) FROM Clothing_Store;
-SELECT MAX(color) FROM Clothing_Store
+SELECT MAX(color) FROM Clothing_Store;

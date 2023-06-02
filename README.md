@@ -1,0 +1,21 @@
+# SQL
+Create TABLE Clothing_Store (id INTEGER, name TEXT, color TEXT, price INTEGER, quantity INTEGER);
+INSERT INTO Clothing_Store VALUES (1,"Shirt","Red",25.00,5);
+INSERT INTO Clothing_Store VALUES (2,"Pants","blue",30.00,5);
+SELECT * FROM Clothing_Store;
+INSERT INTO Clothing_Store VALUES (3, "Shorts", "White",15.00,5);
+INSERT INTO CLothing_Store VALUES (4, "Shoes", "Brown",10.00,5);
+INSERT INTO Clothing_Store VALUES (5, "Wallets", "Black",12.00,3);
+INSERT INTO Clothing_Store VALUES (6, "Socks", "White",8.00,8);
+INSERT INTO Clothing_Store VALUES (7, "Scarfs", "Red",14.00,6);
+INSERT INTO Clothing_Store VAlUES (8, "Hats", "Yellow", 7.00,4);
+INSERT INTO Clothing_Store VALUES (9, "Braclets", "Silver", 45.00,7);
+INSERT INTO Clothing_Store VALUES (10, "Earings", "Gold", 80.00,14);
+INSERT INTO Clothing_Store VALUES (11, "Rings", "White",15.00,8);
+INSERT INTO Clothing_Store VALUES (12, "Sunglasses", "Black", 15.00,3);
+INSERT INTO Clothing_Store VALUES (13, "Shoelaces", "White", 2.00, 8);
+INSERT INTO Clothing_Store VALUES (14, "Backpacks", "Blue", 25.00,16);
+INSERT INTO Clothing_Store VALUES (15, "purses", "Brown", 29.00,6);
+SELECT * FROM Clothing_Store ORDER BY price;
+SELECT MAX(quantity) FROM Clothing_Store;
+SELECT MAX(color) FROM Clothing_Store;
